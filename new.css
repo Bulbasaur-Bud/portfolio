@@ -1,0 +1,25 @@
+.logo {
+  width: 50px;
+}
+
+/* #pre-intro {
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  border: 1px black solid;
+  background-image: url(images/background.png);
+  background-position-y: 50%;
+  background-size: cover;
+} */
+
+#profile-pic {
+  border-radius: 100%;
+  width: 30%;
+  height: auto;
+  display: block;
+}
+
+#contact a,
+#portfolio a {
+  padding-top: 10%;
+}

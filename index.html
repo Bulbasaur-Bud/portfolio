@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website - Praphan</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="new.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/e74643384a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand align-middle" href="#">
+            <img src="images/logo.png" class="logo" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#header"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#services"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#portfolio"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container" id="pre-intro">
+      <div>
+        <!-- <img src="./images/background.png" alt="background" class="img-fluid" /> -->
+      </div>
+      <h1 class="text-center">Hi, I'm Praphan from Malaysia</h1>
+      <!-- <br />
+          <br />
+          <h4>
+            <ul>
+              <li>Age: 32 Years Old</li>
+              <li>Nationality: Malaysian</li>
+              <li>Race: Thai</li>
+              <li>
+                Languages: English, Malay, <br />
+                Mandarin & Thai
+              </li>
+            </ul> 
+          </h4> -->
+    </div>
+
+    <!-- -------------------------about-----------------------------  -->
+
+    <div class="container-xxl" id="about">
+      <img
+        src="images/user.png"
+        alt="image1"
+        id="profile-pic"
+        class="mx-auto"
+      />
+    </div>
+    <div class="container">
+      <h1 class="text-center">About Me</h1>
+      <p>
+        Experienced Resident Engineer with a demonstrated history of working in
+        the architecture & planning industry. Skilled in AutoCAD, Engineering,
+        Communication, Adobe Illustrator, and Microsoft Office. Strong
+        engineering professional with a Bachelor of Engineering - BE focused in
+        Civil Engineering from Universiti Selangor (UNISEL), formerly known as
+        Universiti Industri Selangor.
+      </p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col" id="skills">
+          <p class="tab-links active-link" onclick="opentab('skills')">
+            Skills
+          </p>
+          <ul>
+            <li>
+              <span>Engineering</span><br />Engineering Design for Structural
+            </li>
+            <li><span>Web Development</span><br />Web App Development</li>
+            <li>
+              <span>Microsoft Office</span><br />Structural Design Spreadsheet &
+              Costing Report
+            </li>
+          </ul>
+        </div>
+        <div class="col" id="experience">
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <ul>
+            <li>
+              <span>2020 - 2022</span><br />Resident Engineer at Surbana Jurong
+              Consultants Pte Ltd
+            </li>
+            <li>
+              <span>2019 - 2020</span><br />Project Manager at Metrocon Pte Ltd
+            </li>
+            <li>
+              <span>2018 - 2019</span><br />Senior Project Engineer at Pintary
+              Foundations Pte Ltd
+            </li>
+            <li>
+              <span>2017 - 2018</span><br />Assistant Project Manager at Civil
+              Tech Pte Ltd
+            </li>
+            <li>
+              <span>2015 - 2017</span><br />Project Engineer at CS Bored Piles
+              System Pte Ltd
+            </li>
+          </ul>
+        </div>
+        <div class="col" id="education">
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+          <ul>
+            <li>
+              <span>2022</span><br />Software Engineering Immersive at General
+              Assembly (Malaysia)
+            </li>
+            <li>
+              <span>2010 - 2014</span><br />Bac. Degree in Civil Engineer at
+              Universiti Selangor (Malaysia)
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------------services-----------------------------  -->
+
+    <div class="container" id="services">
+      <h1 class="text-center">My Services</h1>
+      <div class="row">
+        <div class="col">
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>This is description for this service!</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="col">
+          <i class="fa-solid fa-crop"></i>
+          <h2>UI/UX Design</h2>
+          <p>This is description for this service!</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="col">
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h2>App Design</h2>
+          <p>This is description for this service!</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------------------portfolio-----------------------------  -->
+
+    <div class="container" id="portfolio">
+      <h1 class="text-center">My Works</h1>
+      <div class="row">
+        <div class="col">
+          <img src="images/work-1.png" alt="img1" class="img-thumbnail" />
+          <div class="layer">
+            <h3>Tic Tac Toe</h3>
+            <p>
+              Tic-Tac-Toe is a simple and fun game for 2 players, X and O. It is
+              played on a 3x3 grid. Each player's goal is to make 3 in a row.
+            </p>
+            <a href="https://fancy-ganache-d6dbe9.netlify.app/" title="app1"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </div>
+        </div>
+        <div class="col">
+          <img src="images/work-2.png" alt="img1" class="img-thumbnail" />
+          <div class="layer">
+            <h3>To-Do List</h3>
+            <p>
+              A list of the tasks that you have to do, or things that you want
+              to do: Each day I try to mark off as many items on my to-do list
+              as possible.
+            </p>
+            <a href="https://fast-brook-98077.herokuapp.com/" title="app2"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+          </div>
+        </div>
+        <div class="col">
+          <img src="images/work-3.png" alt="img1" class="img-thumbnail" />
+          <div class="layer">
+            <h3>Travel App</h3>
+            <p>
+              This app help you to find all the attractions for your next trip!
+            </p>
+            <a href="#" title="app3"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- <a href="#" class="btn">See More</a> -->
+    </div>
+
+    <!-- -------------------------portfolio-----------------------------  -->
+
+    <div class="container" id="contact">
+      <div class="row justify-content-center">
+        <h1 class="text-center">Contact Me</h1>
+        <div class="col-auto">
+          <p><i class="fa-solid fa-envelope"></i> praphan90@gmail.com</p>
+        </div>
+        <div class="col-auto">
+          <p><i class="fa-solid fa-phone"></i> +65 90678851</p>
+        </div>
+        <div class="col-auto">
+          <a href="https://git.generalassemb.ly/praphan" title="web1"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <div class="col-auto">
+          <a
+            href="https://www.linkedin.com/in/praphan-huat-chai-3896319a/"
+            title="web2"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <a href="images/my-cv.pdf" download class="btn btn-danger">Download CV</a>
+    </div>
+    <div class="container">
+      <form name="submit-to-google-sheet">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            aria-describedby="emailHelp"
+            placeholder="Enter Name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter email"
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >We'll never share your email with anyone else.</small
+          >
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Example textarea</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <span id="msg"></span>
+    </div>
+
+    <div class="copyright" id="footer">
+      <p>Copyright Ⓒ 2022 | Praphan's Portfolio Website</p>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
